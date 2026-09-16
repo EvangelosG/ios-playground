@@ -10,7 +10,7 @@ struct CollectionViewDemo: View {
 
     var body: some View {
         VStack(spacing: 12) {
-            HStack {
+            VStack(spacing: 4) {
                 Stepper("Items: \(itemCount)", value: $itemCount, in: 1...40)
                 Stepper("Columns: \(columns)", value: $columns, in: 1...4)
             }

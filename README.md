@@ -31,6 +31,16 @@ Requires an Xcode whose iOS SDK matches an installed Simulator runtime (the proj
 | **Platform** | Sharing and haptics, photo picker, local notifications, Swift Charts, MapKit, localisation and formatting |
 | **Interop** | `UIViewRepresentable`, `UIViewControllerRepresentable`, `UIHostingController`, coordinators |
 
+## Screenshot tour
+
+| Foundations | Data | Motion | Platform | Interop |
+| --- | --- | --- | --- | --- |
+| ![Foundations](docs/screenshots/01-foundations.png) | ![Data](docs/screenshots/02-data.png) | ![Motion](docs/screenshots/03-motion.png) | ![Platform](docs/screenshots/04-platform.png) | ![Interop](docs/screenshots/05-interop.png) |
+
+| Materials & Liquid Glass | Hero transition | Canvas | Swift Charts | MapKit | UIKit collection view |
+| --- | --- | --- | --- | --- | --- |
+| ![Materials](docs/screenshots/06-materials.png) | ![Hero](docs/screenshots/08-hero-detail.png) | ![Canvas](docs/screenshots/09-canvas.png) | ![Charts](docs/screenshots/10-charts.png) | ![Map](docs/screenshots/11-map.png) | ![Collection view](docs/screenshots/12-collection-view.png) |
+
 ## How the catalogue is wired
 
 - `App/Catalog/Demo.swift` — the `Demo` model: an id, a summary, the explanation shown in the sheet, and the view itself
