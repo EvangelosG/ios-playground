@@ -26,9 +26,9 @@ Requires an Xcode whose iOS SDK matches an installed Simulator runtime (the proj
 | Tab | What it covers |
 | --- | --- |
 | **Foundations** | Materials and Liquid Glass, typography, layout, lists, controls, navigation, presentation, accessibility |
-| **Data** | State ownership, `@Observable`, SwiftData, async/await, loading/empty/error states |
-| **Motion** | Springs, transitions, gestures, scroll effects |
-| **Platform** | Sharing, haptics, maps, charts, notifications, localisation |
+| **Data** | State ownership, `@Observable`, SwiftData, persistence tiers, loading/empty/error/paging, task groups and actors |
+| **Motion** | Springs, transitions, `phaseAnimator`/`keyframeAnimator`, hero transitions, gestures, scroll effects, `Canvas` |
+| **Platform** | Sharing and haptics, photo picker, local notifications, Swift Charts, MapKit, localisation and formatting |
 | **Interop** | `UIViewRepresentable`, `UIViewControllerRepresentable`, `UIHostingController`, coordinators |
 
 ## How the catalogue is wired
